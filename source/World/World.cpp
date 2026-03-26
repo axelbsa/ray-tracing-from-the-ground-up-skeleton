@@ -25,9 +25,9 @@
 
 // build functions
 
-//#include "BuildSingleSphere.cpp"
+#include "BuildSingleSphere.cpp"
 //#include "BuildMultipleObjects.cpp"
-#include "BuildBBCoverPic.cpp"
+//#include "BuildBBCoverPic.cpp"
 
 
 // -------------------------------------------------------------------- default constructor

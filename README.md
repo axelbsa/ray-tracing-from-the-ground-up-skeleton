@@ -98,19 +98,19 @@
        └─────────┬───────────────────────────┘      │
                  │                                  │
                  │                                  ▼
-                 │           ┌──────────────────────────────────────────┐
-                 │           │  World::build()                          │
-                 │           │  (build/BuildBBCoverPic.cpp)             │
-                 │           │                                          │
-                 │           │  1. Configure ViewPlane (hres, vres, s)  │
-                 │           │  2. Set background_color                 │
-                 │           │  3. Create Tracer:                       │
+                 │           ┌───────────────────────────────────────────┐
+                 │           │  World::build()                           │
+                 │           │  (build/BuildBBCoverPic.cpp)              │
+                 │           │                                           │
+                 │           │  1. Configure ViewPlane (hres, vres, s)   │
+                 │           │  2. Set background_color                  │
+                 │           │  3. Create Tracer:                        │
                  │           │     tracer_ptr = new MultipleObjects(this)│
-                 │           │  4. Create GeometricObjects:             │
-                 │           │     Sphere* s = new Sphere(center, r)    │
-                 │           │     s->set_color(RGBColor(...))          │
-                 │           │     add_object(s)  // x32 spheres        │
-                 │           └──────────────────────────────────────────┘
+                 │           │  4. Create GeometricObjects:              │
+                 │           │     Sphere* s = new Sphere(center, r)     │
+                 │           │     s->set_color(RGBColor(...))           │
+                 │           │     add_object(s)  // x32 spheres         │
+                 │           └───────────────────────────────────────────┘
                  │
                  ▼
        ┌─────────────────────────────────────┐
